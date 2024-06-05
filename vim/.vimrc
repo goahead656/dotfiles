@@ -65,7 +65,9 @@ set mouse+=a
 
 "set vim plug-in
 set runtimepath^=~/dotfiles/vim/.vim/pack/vendor/start/ctrlp.vim
-
+let g:ctrlp_map ='<c-p>' 
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra' 
 
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
